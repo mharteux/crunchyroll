@@ -1,0 +1,111 @@
+body{
+    background-image: url(/project_images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+    margin: 25px;
+    font-family: "consolas", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h1{
+    font-family: "press Start 2P", "consolas", sans-serif;
+    color: #224d56;
+}
+h1 a:link{
+    color: #224d56;
+    text-decoration: none;
+}
+h1 a:visited{
+    color: #224d56;  
+}
+h5 span{
+    color: #224d56;
+    padding: 3px;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 10px;
+}
+.text p{
+    color: #fdfcfe;
+    text-shadow: 0px 0px 5px black;
+    text-align: justify;
+}
+.list li{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 14px;
+}
+.botton-text p{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 525px;
+}
+#crunchyroll img{
+    left: 24px;
+    top: 405px;
+    max-height: 25px;
+    height: 100%;
+    width: auto;
+    background-color: #f7a03f;
+    border: 2px solid #4c4d4f;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+    z-index: 1;
+}
+#hime img{
+    margin-top: -450px;
+    max-height: 700px;
+    height: 100%;
+    width: auto;
+    z-index: 2;
+}
+#himesmexy img{
+    margin-left: 525px;
+    max-height: 365px;
+    height: 100%;
+    width: auto;
+    box-shadow: 0px 0px 20px black;
+    opacity: 0.6;
+    z-index: 1;
+}
+#music{
+    margin-top: -50px;
+    margin-left: 70px;
+    max-height: 300px;
+    width: 400px; 
+    height: 25px; 
+    opacity: 0.6;
+}
+@media screen and (max-height: 667px){
+    #himesmexy img{
+        float: right;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-height: 667px) {
+    .botton-text{
+        margin-left: -525px;
+    }
+}
+@media screen and (max-height: 667px){
+    #hime img{
+        margin-left: -30px;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-height: 667px){
+    #music{
+        position: absolute;
+        margin-left: 20px;
+        z-index: 2;
+    }
+}
