@@ -112,10 +112,8 @@ h5 span{
     }
     
     #hime img{
-        margin-left: -150px;
-        position: relative;
+        margin-left: -120px;
+        position: absolute;
         margin-top: 20px;
-        min-width: 100px;
-        max-width: 400px;
     }
 }
